@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>reservation_detail</title>
+</head>
+<body>
+
+<h1>Reservation Details</h1>
+<p>Customer: {{ reservation.customer_name }}</p>
+<p>Table: {{ reservation.table_id.name }}</p>
+<p>Reservation Time: {{ reservation.reservation_time }}</p>
+<p>Duration: {{ reservation.duration_minutes }} minutes</p>
+
+</body>
+</html>

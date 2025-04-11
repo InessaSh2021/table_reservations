@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table_list</title>
+</head>
+<body>
+
+<h1>Tables</h1>
+<ul>
+    {% for table in tables %}
+        <li>{{ table.name }} - Seats: {{ table.seats }} - Location: {{ table.location }}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
